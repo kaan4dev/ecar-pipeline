@@ -93,4 +93,7 @@ data/raw/
 
 # Local reports/artifacts
 reports/
+expectations/
 
+# Misc
+.DS_Store
