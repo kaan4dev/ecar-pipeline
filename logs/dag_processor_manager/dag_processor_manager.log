@@ -1,0 +1,239 @@
+[2025-10-24T10:57:53.649+0000] {manager.py:470} INFO - Processing files using up to 2 processes at a time 
+[2025-10-24T10:57:53.649+0000] {manager.py:471} INFO - Process each file at most once every 30 seconds
+[2025-10-24T10:57:53.649+0000] {manager.py:472} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2025-10-24T10:57:53.650+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2025-10-24T10:57:53.650+0000] {manager.py:740} INFO - There are 0 files in /opt/airflow/dags
+[2025-10-24T11:00:27.469+0000] {manager.py:452} INFO - Exiting gracefully upon receiving signal 15
+[2025-10-24T11:00:40.508+0000] {manager.py:470} INFO - Processing files using up to 2 processes at a time 
+[2025-10-24T11:00:40.509+0000] {manager.py:471} INFO - Process each file at most once every 30 seconds
+[2025-10-24T11:00:40.511+0000] {manager.py:472} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2025-10-24T11:00:40.511+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2025-10-24T11:00:40.518+0000] {manager.py:740} INFO - There are 1 files in /opt/airflow/dags
+[2025-10-24T11:00:40.639+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/ecar_dag.py    164  0.03s             0           0
+================================================================================
+[2025-10-24T11:01:10.977+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ecar_dag.py    172  0.03s             1           0  0.30s           2025-10-24T11:00:40
+================================================================================
+[2025-10-24T11:01:41.342+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ecar_dag.py    177  0.02s             1           0  0.13s           2025-10-24T11:01:11
+================================================================================
+[2025-10-24T11:02:11.735+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ecar_dag.py    182  0.03s             1           0  0.11s           2025-10-24T11:01:41
+================================================================================
+[2025-10-24T11:02:42.189+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ecar_dag.py    187  0.02s             1           0  0.15s           2025-10-24T11:02:11
+================================================================================
+[2025-10-24T11:02:56.086+0000] {manager.py:452} INFO - Exiting gracefully upon receiving signal 15
+[2025-10-24T11:03:08.805+0000] {manager.py:470} INFO - Processing files using up to 2 processes at a time 
+[2025-10-24T11:03:08.807+0000] {manager.py:471} INFO - Process each file at most once every 30 seconds
+[2025-10-24T11:03:08.808+0000] {manager.py:472} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2025-10-24T11:03:08.809+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2025-10-24T11:03:08.813+0000] {manager.py:740} INFO - There are 1 files in /opt/airflow/dags
+[2025-10-24T11:03:08.968+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/ecar_dag.py    163  0.08s             0           0
+================================================================================
+[2025-10-24T11:03:39.227+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ecar_dag.py    169  0.03s             1           0  0.16s           2025-10-24T11:03:09
+================================================================================
+[2025-10-24T11:04:09.674+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ecar_dag.py    177  0.02s             1           0  0.13s           2025-10-24T11:03:39
+================================================================================
+[2025-10-24T11:04:40.182+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ecar_dag.py    182  0.02s             1           0  0.13s           2025-10-24T11:04:09
+================================================================================
+[2025-10-24T11:04:50.573+0000] {manager.py:452} INFO - Exiting gracefully upon receiving signal 15
+[2025-10-24T11:05:01.763+0000] {manager.py:470} INFO - Processing files using up to 2 processes at a time 
+[2025-10-24T11:05:01.766+0000] {manager.py:471} INFO - Process each file at most once every 30 seconds
+[2025-10-24T11:05:01.770+0000] {manager.py:472} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2025-10-24T11:05:01.771+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2025-10-24T11:05:01.776+0000] {manager.py:740} INFO - There are 1 files in /opt/airflow/dags
+[2025-10-24T11:05:02.170+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/ecar_dag.py    164  0.13s             0           0
+================================================================================
+[2025-10-24T11:05:32.463+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ecar_dag.py    169  0.02s             1           0  0.23s           2025-10-24T11:05:02
+================================================================================
+[2025-10-24T11:06:02.851+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ecar_dag.py    174  0.01s             1           0  0.35s           2025-10-24T11:05:32
+================================================================================
+[2025-10-24T11:06:33.217+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ecar_dag.py    189  0.03s             1           0  0.10s           2025-10-24T11:06:02
+================================================================================
+[2025-10-24T11:07:03.650+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ecar_dag.py    201  0.03s             1           0  0.13s           2025-10-24T11:06:33
+================================================================================
+[2025-10-24T11:07:33.998+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ecar_dag.py    210  0.03s             1           0  0.12s           2025-10-24T11:07:03
+================================================================================
+[2025-10-24T11:08:04.341+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ecar_dag.py    215  0.03s             1           0  0.12s           2025-10-24T11:07:34
+================================================================================
+[2025-10-24T11:08:35.006+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ecar_dag.py                           1           0  0.16s           2025-10-24T11:08:15
+================================================================================
+[2025-10-24T11:09:05.378+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ecar_dag.py                           1           0  0.12s           2025-10-24T11:08:46
+================================================================================
+[2025-10-24T11:09:35.737+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ecar_dag.py                           1           0  0.13s           2025-10-24T11:09:16
+================================================================================
+[2025-10-24T11:10:02.094+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2025-10-24T11:10:02.110+0000] {manager.py:740} INFO - There are 1 files in /opt/airflow/dags
+[2025-10-24T11:10:06.196+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ecar_dag.py                           1           0  0.13s           2025-10-24T11:09:47
+================================================================================
+[2025-10-24T11:10:17.092+0000] {manager.py:452} INFO - Exiting gracefully upon receiving signal 15
+[2025-10-24T11:10:29.590+0000] {manager.py:470} INFO - Processing files using up to 2 processes at a time 
+[2025-10-24T11:10:29.591+0000] {manager.py:471} INFO - Process each file at most once every 30 seconds
+[2025-10-24T11:10:29.591+0000] {manager.py:472} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2025-10-24T11:10:29.592+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2025-10-24T11:10:29.597+0000] {manager.py:740} INFO - There are 1 files in /opt/airflow/dags
+[2025-10-24T11:10:29.793+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/ecar_dag.py    164  0.08s             0           0
+================================================================================
+[2025-10-24T11:11:00.189+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ecar_dag.py    172  0.03s             1           0  0.23s           2025-10-24T11:10:29
+================================================================================
+[2025-10-24T11:11:30.591+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ecar_dag.py    177  0.03s             1           0  0.16s           2025-10-24T11:11:00
+================================================================================
+[2025-10-24T11:12:00.934+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ecar_dag.py    182  0.03s             1           0  0.13s           2025-10-24T11:11:30
+================================================================================
+[2025-10-24T11:12:31.312+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ecar_dag.py    187  0.03s             1           0  0.14s           2025-10-24T11:12:01
+================================================================================
+[2025-10-24T11:13:01.683+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ecar_dag.py    192  0.01s             1           0  0.14s           2025-10-24T11:12:31
+================================================================================
