@@ -15,6 +15,7 @@ sys.path.insert(0, PROJECT_ROOT)
 
 EXTRACT_SCRIPT = os.path.join(PROJECT_ROOT, "src", "extract_ecar.py")
 TRANSFORM_SCRIPT = os.path.join(PROJECT_ROOT, "src", "transform_ecar.py")
+MODEL_SCRIPT = os.path.join(PROJECT_ROOT, "src/model_ecar.py")
 LOAD_SCRIPT = os.path.join(PROJECT_ROOT, "src", "load.py")
 
 default_args = {
@@ -56,10 +57,17 @@ with DAG(
         op_args=[TRANSFORM_SCRIPT],
     )
 
+    model_task = PythonOperator(
+    task_id="model_data",
+    python_callable=run_script,
+    op_args=[MODEL_SCRIPT],
+)
+
+
     load_task = PythonOperator(
         task_id="load_to_azure",
         python_callable=run_script,
         op_args=[LOAD_SCRIPT],
     )
 
-    extract_task >> transform_task >> load_task
+extract_task >> transform_task >> model_task >> load_task

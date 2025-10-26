@@ -13,7 +13,7 @@ x-airflow-common: &airflow-common
     - ./dags:/opt/airflow/dags
     - ./logs:/opt/airflow/logs
     - ./plugins:/opt/airflow/plugins
-    - ./:/usr/local/airflow/ecar-pipeline  # senin proje klasörün mount edilir
+    - ./:/usr/local/airflow/ecar-pipeline 
   user: "${AIRFLOW_UID:-50000}:0"
   depends_on:
     - postgres
